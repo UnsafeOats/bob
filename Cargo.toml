@@ -1,0 +1,13 @@
+[package]
+name = "BobThe"
+version = "0.1.0"
+edition = "2021"
+authors = ["Shane Stephenson <stephenson.shane.a@gmail.com>"]
+readme = "README.md"
+description = "Small rust scripting language for build scripts."
+homepage = "https://github.com/UnsafeOats/bob"
+repository = "https://github.com/UnsafeOats/bob"
+license = "MIT"
+keywords = ["script", "build", "language"]
+
+[dependencies]
