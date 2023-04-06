@@ -10,5 +10,5 @@ Cargo.lock
 **/*.rs.bk
 
 # ignore target files for examples
-examples/*/target
-examples/*/target/*
+/examples/*/target/
+/examples/*/target/*
