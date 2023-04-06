@@ -13,7 +13,6 @@ pub fn parse(tokens: Vec<Token>) -> Result<Vec<Statement>, String> {
     let mut tokens_iter = tokens.into_iter().peekable();
 
     while let Some(token) = tokens_iter.next() {
-        println!("Token: {:?}", token);
         let statement = match token {
             Token::Read => {
                 let src = get_identifier(&mut tokens_iter)?;
