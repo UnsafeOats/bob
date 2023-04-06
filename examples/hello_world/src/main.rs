@@ -1,4 +1,4 @@
-use bob_the::bob::Script;
+use bob_the::Script;
 
 
 fn main() {
