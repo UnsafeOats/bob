@@ -1,13 +1,13 @@
 [package]
-name = "BobbyB"
+name = "bob-the"
 version = "0.1.0"
 edition = "2021"
 authors = ["Shane Stephenson <stephenson.shane.a@gmail.com>"]
 readme = "README.md"
-description = "Small rust scripting language for build scripts."
+description = "Small rust scripting language for simple builds.\n'Bob the Builder, can we fix it? Bob the Builder, yes we can!'"
 homepage = "https://github.com/UnsafeOats/bob"
 repository = "https://github.com/UnsafeOats/bob"
 license = "MIT"
-keywords = ["script", "build", "language"]
+keywords = ["script", "build", "language", "parser"]
 
 [dependencies]
